@@ -1,5 +1,9 @@
 Autores:
 
+EDUARDO GONZALEZ GONZALEZ
+ALEJANDRO MARTINEZ GUZMAN
+YOSHUA J. VALDEZ HERNANDEZ
+
 # Programación de E/S en lenguaje arm
 **"Manejo de periféricos de E/S en lenguaje arm"**
 
@@ -13,8 +17,8 @@ Objetivo de la práctica:
 * Imprimir en la terminal estándar el resultado de una función.
 
 
- Desarrollo: 
-# El primer paso fue el desarrollo de un programa en lenguaje C que procesa arreglos.
+ 
+#Desarrollo de un programa en lenguaje C que procesa arreglos.
 ![image](https://user-images.githubusercontent.com/109257116/222993170-2269c68c-ae85-447a-8e8b-9203c8cc0a4c.png)
 
 Este fue nuestro programa el cual se encuentra en una carpeta en este repositorio.
@@ -49,4 +53,9 @@ donde arm-run es un alias de qemu-static-user.
 
 # Marcos correspondientes a las funciones usadas 
 ![image](https://user-images.githubusercontent.com/109257116/223004987-c17c2d8b-076a-45dd-8412-d1858ec4d804.png)
+
+# Funcionamiento 
+
+*El funcionamiento de este programa consiste en recibir una cadena de números enteros mediante un llamado al sistema, la cadena es procesada y convertida en ASCII. 
+La salida se refleja en la terminal gracias a la función "Display" que recibe el arreglo convertido en ASCII y lo imprime como salida.*
 
